@@ -1,0 +1,100 @@
+/* Whole page Section */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a { text-decoration: none; }
+
+button { cursor: pointer; }
+
+/* Header Section */
+header {
+    background: #001f3f;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px; 
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+header p { margin: 20px 0; }
+
+.btn {
+    padding: 10px 20px;
+    background: #fff;
+    color: #001f3f;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn:hover, .contact-form button:hover {
+    background: #015bb5;
+    color: #fff;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    padding: 40px;
+    background: #e0e0e0;
+    color: #333;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #dfdfdf;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.contact-form input { padding: 15px; }
+
+.contact-form textarea { padding: 0 15px; }
+
+.contact-form button {
+    width: 100px;
+    padding: 10px;
+    background: #001f3f; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Footer Section */
+footer {
+    background: #001f3f; 
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto; /* Ensures the footer stays at the bottom */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 { font-size: 1.5rem; }
+    header p { font-size: 1rem; }
+}
