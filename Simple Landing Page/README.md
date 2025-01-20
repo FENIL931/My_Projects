@@ -15,5 +15,6 @@ This repository contains the code for a simple, responsive, SEO-friendly, and cr
         Cross-Browser Testing Tools: Ensures compatibility across various browsers.
 
 
-![image](https://github.com/user-attachments/assets/3650c1fd-39bc-4921-b68e-8ca2a073d19d)
-![WhatsApp Image 2025-01-20 at 09 44 59_bbd328a3](https://github.com/user-attachments/assets/30bed0b8-ffe5-46f2-9a9b-1a610aa878fa)
+![Image](https://github.com/user-attachments/assets/b78120e7-d7ed-41b5-8fe5-8a6afac65d14)
+
+![Image](https://github.com/user-attachments/assets/37963559-9288-410f-9e4d-d0ff61e63b67)
